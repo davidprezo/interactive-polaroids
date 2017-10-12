@@ -33,15 +33,15 @@ html {
 
 .polaroid:first-child {
   transform: rotate(-12deg);
-  left: 11em;
-  top: 7em;
+  left: 12em;
+  top: 6em;
   z-index: 1;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(7deg);
   left: 18em;
-  top: 12em;
+  top: 10em;
   z-index: 3;
 
 }
@@ -49,11 +49,12 @@ html {
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
   left: 24em;
-  top: 8em;
+  top: 6em;
   z-index: 2;
 }
 
 .polaroid:hover {
   transform: rotate(0deg);
   z-index: 4;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .1);
 }
