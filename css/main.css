@@ -32,19 +32,28 @@ html {
 }
 
 .polaroid:first-child {
-  transform: rotate(-15deg);
-  left:12em;
+  transform: rotate(-12deg);
+  left: 11em;
+  top: 7em;
+  z-index: 1;
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(22deg);
+  transform: rotate(7deg);
+  left: 18em;
+  top: 12em;
+  z-index: 3;
 
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
+  left: 24em;
+  top: 8em;
+  z-index: 2;
 }
 
 .polaroid:hover {
   transform: rotate(0deg);
+  z-index: 4;
 }
